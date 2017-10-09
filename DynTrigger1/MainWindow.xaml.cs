@@ -20,7 +20,7 @@ namespace DynTrigger1
     /// </summary>
     public partial class MainWindow : Window
     {
-        bool FileExists { get; set; } = true;
+        public bool FileExists { get; set; } = false;
         public MainWindow()
         {
             InitializeComponent();

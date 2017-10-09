@@ -10,10 +10,10 @@
         <Button Content="Hello" HorizontalAlignment="Left" VerticalAlignment="Top">
             <Button.Style>
                 <Style TargetType="Button">
-                    <Setter Property="Background" Value="Pink"/>
+                    <Setter Property="Foreground" Value="Green"/>
                     <Style.Triggers>
-                        <DataTrigger Binding="{Binding FileExists}" Value="true">
-                            <Setter Property="Background" Value="{DynamicResource Res1}"/>
+                        <DataTrigger Binding="{Binding FileExists}" Value="True">
+                            <Setter Property="Foreground" Value="{DynamicResource Res1}" />
                         </DataTrigger>
                     </Style.Triggers>
                 </Style>
